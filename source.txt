@@ -22,6 +22,7 @@ end run
 on open names
 	-- Configuration
 	set suffix to "-html5video"
+	set audiobitrate to "128k"
 	
 	display dialog "Resize to width (pixels, 0 = don't resize)" default answer "0"
 	set videowidth to text returned of result
